@@ -1,0 +1,18 @@
+# build products
+build/
+inkling-server
+tests/bin/
+tests/tok_build/
+ref/tools/ref_logits
+server.log
+.DS_Store
+
+# model files and reference dumps
+*.gguf
+models/
+ref/data/*.ref
+
+# large local test prompts (source text of other projects)
+ref/data/p_long.*
+ref/data/p_38k.*
+ref/data/p_med_raw.txt
