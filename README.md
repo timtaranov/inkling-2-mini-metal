@@ -22,7 +22,7 @@ same weights llama.cpp does roughly 300–870 and 36–48.
 ## Quick start
 
 ```sh
-git clone <this repo> && cd inkling-2-mini-metal
+git clone https://github.com/timtaranov/inkling-2-mini-metal && cd inkling-2-mini-metal
 make                                              # builds ./inkling-server
 
 mkdir -p models                                   # put the two files here:
